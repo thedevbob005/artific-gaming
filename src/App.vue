@@ -9211,30 +9211,29 @@ export default {
   data: function() {
     return {
       fTwoL: 70,
-      fTwoT: 50,
+      fTwoT: -50,
       fThreeL: 50,
-      fThreeT: 50,
+      fThreeT: 150,
       itv: null
     }
   },
   methods: {
     moveIT () {
-      this.fTwoL = Math.floor(Math.random() * (80 - 20) + 20);
-      this.fTwoT = Math.floor(Math.random() * (80 - 20) + 20);
-      this.fThreeL = Math.floor(Math.random() * (80 - 20) + 20);
-      this.fThreeT = Math.floor(Math.random() * (80 - 20) + 20);
+      this.fTwoL = Math.floor(Math.random() * (90 - 10) + 10);
+      this.fTwoT = Math.floor(Math.random() * (90 - 10) + 10);
+      this.fThreeL = Math.floor(Math.random() * (90 - 10) + 10);
+      this.fThreeT = Math.floor(Math.random() * (90 - 10) + 10);
       return true;
     }
   },
-  created() {
+  mounted() {
     let that = this;
-    this.fTwoL = Math.floor(Math.random() * (80 - 20) + 20);
-    this.fTwoT = Math.floor(Math.random() * (80 - 20) + 20);
-    this.fThreeL = Math.floor(Math.random() * (80 - 20) + 20);
-    this.fThreeT = Math.floor(Math.random() * (80 - 20) + 20);
+    setTimeout(function () {
+      that.moveIT();
+    }, 500)
     this.itv = setInterval(function() {
       that.moveIT();
-    }, 7000);
+    }, 8000);
   }
 }
 </script>
@@ -9281,7 +9280,7 @@ svg#flare1 {
   position: absolute;
   left: 70%;
   top: 50%;
-  transform: translate3d(-50%, -50%, 0) scale(1);
+  transform: translate3d(-50%, -50%, 0) scale(1.2);
   animation: softglowwave 5s linear infinite;
   height: 200px;
   width: 200px;
@@ -9294,7 +9293,7 @@ svg#flare1 {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate3d(-50%, -50%, 0) scale(1);
+  transform: translate3d(-50%, -50%, 0) scale(1.2);
   animation: softglowwave2 6s linear infinite;
   height: 200px;
   width: 200px;
