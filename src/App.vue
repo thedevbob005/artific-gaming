@@ -9223,12 +9223,15 @@ export default {
       this.fTwoT = Math.floor(Math.random() * (80 - 20) + 20);
       this.fThreeL = Math.floor(Math.random() * (80 - 20) + 20);
       this.fThreeT = Math.floor(Math.random() * (80 - 20) + 20);
-      console.log(this.fTwoL);
       return true;
     }
   },
   created() {
     let that = this;
+    this.fTwoL = Math.floor(Math.random() * (80 - 20) + 20);
+    this.fTwoT = Math.floor(Math.random() * (80 - 20) + 20);
+    this.fThreeL = Math.floor(Math.random() * (80 - 20) + 20);
+    this.fThreeT = Math.floor(Math.random() * (80 - 20) + 20);
     this.itv = setInterval(function() {
       that.moveIT();
     }, 7000);
