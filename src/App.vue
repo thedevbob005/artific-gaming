@@ -80,6 +80,7 @@
       </svg>
       <div id="flare2" v-bind:style="{left: this.fTwoL+'%', top: this.fTwoT+'%'}"></div>
       <div id="flare3" v-bind:style="{left: this.fThreeL+'%', top: this.fThreeT+'%'}"></div>
+      <div id="flare4" v-bind:style="{left: this.fFourL+'%', top: this.fFourT+'%'}"></div>
       <svg id="screen" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2593.13" height="1493.06" viewBox="0 0 2593.13 1493.06">
         <defs>
           <clipPath id="a" transform="translate(22.81 21.56)">
@@ -9214,6 +9215,8 @@ export default {
       fTwoT: -50,
       fThreeL: 50,
       fThreeT: 150,
+      fFourL: 150,
+      fFourT: 50,
       itv: null
     }
   },
@@ -9223,6 +9226,8 @@ export default {
       this.fTwoT = Math.floor(Math.random() * (90 - 10) + 10);
       this.fThreeL = Math.floor(Math.random() * (90 - 10) + 10);
       this.fThreeT = Math.floor(Math.random() * (90 - 10) + 10);
+      this.fFourL = Math.floor(Math.random() * (90 - 10) + 10);
+      this.fFourT = Math.floor(Math.random() * (90 - 10) + 10);
       return true;
     }
   },
@@ -9300,6 +9305,19 @@ svg#flare1 {
   border-radius: 50%;
   background: radial-gradient(circle, rgba(21,244,238,1) 0%, rgba(21,244,238,0.65) 35%, rgba(21,244,238,0) 100%);
   box-shadow: 0 0 50px rgba(21,244,238,0.6);
+  transition: all 12s;
+}
+#flare4 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0) scale(1.2);
+  animation: softglowwave2 6s linear infinite;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(244,35,21,1) 0%, rgba(244,35,21,0.65) 35%, rgba(244,35,21,0) 100%);
+  box-shadow: 0 0 50px rgba(244,35,21,0.6);
   transition: all 12s;
 }
 </style>
