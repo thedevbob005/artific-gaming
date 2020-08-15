@@ -9326,6 +9326,13 @@ iframe {
   left: 50%;
   top: 50%;
   transform: translate3d(-50%, -50%, 0);
-  max-height: 100vh;
+  height: 56.25vw;
+  width: 100vw;
+}
+@media screen and (max-aspect-ratio: 16/9) {
+  iframe {
+    height: 100vh;
+    width: 177.778vh;
+  }
 }
 </style>
