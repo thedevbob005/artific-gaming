@@ -9326,5 +9326,6 @@ iframe {
   left: 50%;
   top: 50%;
   transform: translate3d(-50%, -50%, 0);
+  max-height: 100vh;
 }
 </style>
