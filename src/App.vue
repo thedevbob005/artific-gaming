@@ -1,86 +1,87 @@
 <template>
   <div id="app">
     <div id="supercont">
-      <svg id="flare1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="205.43" height="205.43" viewBox="0 0 205.43 205.43">
-        <defs>
-          <radialGradient id="a" cx="75.32" cy="108.53" r="57.09" gradientTransform="translate(110.57 -29.15) rotate(38.17)" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="#fff"/>
-            <stop offset="0.04" stop-color="#f1f1f1" stop-opacity="0.94"/>
-            <stop offset="0.25" stop-color="#a9a9a9" stop-opacity="0.66"/>
-            <stop offset="0.45" stop-color="#6d6d6d" stop-opacity="0.43"/>
-            <stop offset="0.63" stop-color="#3e3e3e" stop-opacity="0.24"/>
-            <stop offset="0.78" stop-color="#1c1c1c" stop-opacity="0.11"/>
-            <stop offset="0.91" stop-color="#070707" stop-opacity="0.03"/>
-            <stop offset="1" stop-opacity="0"/>
-          </radialGradient>
-          <radialGradient id="b" cx="75.32" cy="108.53" r="102.71" xlink:href="#a"/>
-          <radialGradient id="c" cx="418.2" cy="61.67" r="24.55" gradientTransform="matrix(0, 1.02, -1, 0, 164.16, -326.23)" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="#fff"/>
-            <stop offset="0.08" stop-color="#fafafa" stop-opacity="0.98"/>
-            <stop offset="0.19" stop-color="#ebebeb" stop-opacity="0.92"/>
-            <stop offset="0.3" stop-color="#d2d2d2" stop-opacity="0.83"/>
-            <stop offset="0.42" stop-color="#b0b0b0" stop-opacity="0.69"/>
-            <stop offset="0.54" stop-color="#848484" stop-opacity="0.52"/>
-            <stop offset="0.67" stop-color="#4e4e4e" stop-opacity="0.3"/>
-            <stop offset="0.8" stop-color="#0f0f0f" stop-opacity="0.06"/>
-            <stop offset="0.83" stop-opacity="0"/>
-          </radialGradient>
-          <radialGradient id="d" cx="1589.63" cy="-2.39" r="37.12" gradientTransform="matrix(0.08, 0.07, -2.1, 2.57, -32.63, 3.54)" gradientUnits="userSpaceOnUse">
-            <stop offset="0" stop-color="#fff"/>
-            <stop offset="0.13" stop-color="#fbfbfb" stop-opacity="0.99"/>
-            <stop offset="0.26" stop-color="#f0f0f0" stop-opacity="0.94"/>
-            <stop offset="0.38" stop-color="#ddd" stop-opacity="0.87"/>
-            <stop offset="0.51" stop-color="#c2c2c2" stop-opacity="0.76"/>
-            <stop offset="0.63" stop-color="#9f9f9f" stop-opacity="0.63"/>
-            <stop offset="0.75" stop-color="#757575" stop-opacity="0.46"/>
-            <stop offset="0.87" stop-color="#434343" stop-opacity="0.26"/>
-            <stop offset="0.98" stop-color="#0a0a0a" stop-opacity="0.04"/>
-            <stop offset="1" stop-opacity="0"/>
-          </radialGradient>
-          <radialGradient id="e" cx="3035.03" cy="3.48" r="20.69" gradientTransform="matrix(0.03, 0.09, -3.34, 0.98, 28.79, -189.01)" xlink:href="#d"/>
-          <radialGradient id="f" cx="628.66" cy="-24.29" r="20.69" gradientTransform="matrix(-0.09, 0.03, -0.98, -3.34, 136.67, 2.93)" xlink:href="#d"/>
-          <radialGradient id="g" cx="3183.72" cy="3.67" r="26.23" gradientTransform="matrix(0, 0.1, -3.48, -0.09, 122.31, -211.74)" xlink:href="#d"/>
-          <radialGradient id="h" cx="626.39" cy="-28.29" r="26.23" gradientTransform="matrix(0, -0.1, 3.48, 0, 199.46, 163.23)" xlink:href="#d"/>
-          <radialGradient id="i" cx="3189.62" cy="6.11" r="20.69" gradientTransform="matrix(-0.07, 0.15, -3.13, -1.53, 352.75, -359.27)" xlink:href="#d"/>
-          <radialGradient id="j" cx="638.12" cy="-27.22" r="20.69" gradientTransform="matrix(-0.19, -0.09, 1.53, -3.13, 261.39, 74.46)" xlink:href="#d"/>
-          <radialGradient id="k" cx="3024.35" cy="2.34" r="16.23" gradientTransform="matrix(0.07, 0.07, -2.61, 2.31, -90.46, -127.38)" xlink:href="#d"/>
-          <radialGradient id="l" cx="569.93" cy="-23.95" r="16.23" gradientTransform="matrix(-0.07, 0.07, -2.31, -2.61, 87.82, 1.75)" xlink:href="#d"/>
-        </defs>
-        <title>Asset 1</title>
-        <g style="isolation: isolate">
-          <g>
-            <g>
-              <g>
-                <circle cx="102.71" cy="102.71" r="57.08" transform="translate(-42.55 102.71) rotate(-45)" fill="url(#a)" style="mix-blend-mode: color-dodge"/>
-                <circle cx="102.71" cy="102.71" r="102.7" transform="translate(-42.55 102.71) rotate(-45)" fill="url(#b)" style="mix-blend-mode: color-dodge"/>
-              </g>
-              <ellipse cx="102.49" cy="100.85" rx="24.55" ry="25.08" transform="translate(-40.13 119.09) rotate(-51.82)" fill="url(#c)" style="mix-blend-mode: screen"/>
-            </g>
-            <g opacity="0.8">
-              <path d="M178,5.93c-1.65-1.34-37.88,40.36-80.93,93.14s-76.6,96.66-75,98S60,156.72,103,103.94,179.62,7.28,178,5.93Z" fill="url(#d)" style="mix-blend-mode: color-dodge"/>
-            </g>
-            <g opacity="0.2">
-              <path d="M170.09,81.3c-.31-1.08-31.54,7.09-69.74,18.25s-68.91,21.08-68.59,22.16,31.54-7.09,69.74-18.25S170.41,82.38,170.09,81.3Z" fill="url(#e)" style="mix-blend-mode: color-dodge"/>
-              <path d="M121.13,170.67c1.08-.32-7.09-31.54-18.25-69.74S81.8,32,80.72,32.34,87.81,63.88,99,102.08,120.05,171,121.13,170.67Z" fill="url(#f)" style="mix-blend-mode: color-dodge"/>
-            </g>
-            <g opacity="0.5">
-              <path d="M192.22,104c0-1.43-40.8-3.7-91.22-5.07S9.67,97.59,9.63,99s40.8,3.7,91.22,5.07S192.18,105.42,192.22,104Z" fill="url(#g)" style="mix-blend-mode: color-dodge"/>
-              <ellipse cx="100.93" cy="101.5" rx="91.33" ry="2.58" transform="translate(-3.29 199.63) rotate(-88.44)" fill="url(#h)" style="mix-blend-mode: color-dodge"/>
-            </g>
-            <g opacity="0.5">
-              <path d="M167.4,133.26c.83-1.69-27.46-17.27-63.19-34.8S38.86,68.07,38,69.75,65.49,87,101.22,104.55,166.57,134.94,167.4,133.26Z" fill="url(#i)" style="mix-blend-mode: color-dodge"/>
-              <path d="M69.61,166.19c2.11,1,18-27.08,35.58-62.8s30-65.53,27.92-66.57S115.06,63.9,97.53,99.62,67.49,165.15,69.61,166.19Z" fill="url(#j)" style="mix-blend-mode: color-dodge"/>
-            </g>
-            <g opacity="0.2">
-              <path d="M143.31,64.08c-.59-.66-20,15.56-43.44,36.23s-41.91,38-41.33,38.62,20-15.56,43.44-36.23S143.89,64.74,143.31,64.08Z" fill="url(#k)" style="mix-blend-mode: color-dodge"/>
-              <path d="M138.35,143.89c.66-.59-15.56-20-36.23-43.44s-38-41.91-38.62-41.33,15.56,20,36.23,43.44S137.69,144.47,138.35,143.89Z" fill="url(#l)" style="mix-blend-mode: color-dodge"/>
-            </g>
-          </g>
-        </g>
-      </svg>
-      <div id="flare2" v-bind:style="{left: this.fTwoL+'%', top: this.fTwoT+'%'}"></div>
-      <div id="flare3" v-bind:style="{left: this.fThreeL+'%', top: this.fThreeT+'%'}"></div>
-      <div id="flare4" v-bind:style="{left: this.fFourL+'%', top: this.fFourT+'%'}"></div>
+<!--      <svg id="flare1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="205.43" height="205.43" viewBox="0 0 205.43 205.43">-->
+<!--        <defs>-->
+<!--          <radialGradient id="a" cx="75.32" cy="108.53" r="57.09" gradientTransform="translate(110.57 -29.15) rotate(38.17)" gradientUnits="userSpaceOnUse">-->
+<!--            <stop offset="0" stop-color="#fff"/>-->
+<!--            <stop offset="0.04" stop-color="#f1f1f1" stop-opacity="0.94"/>-->
+<!--            <stop offset="0.25" stop-color="#a9a9a9" stop-opacity="0.66"/>-->
+<!--            <stop offset="0.45" stop-color="#6d6d6d" stop-opacity="0.43"/>-->
+<!--            <stop offset="0.63" stop-color="#3e3e3e" stop-opacity="0.24"/>-->
+<!--            <stop offset="0.78" stop-color="#1c1c1c" stop-opacity="0.11"/>-->
+<!--            <stop offset="0.91" stop-color="#070707" stop-opacity="0.03"/>-->
+<!--            <stop offset="1" stop-opacity="0"/>-->
+<!--          </radialGradient>-->
+<!--          <radialGradient id="b" cx="75.32" cy="108.53" r="102.71" xlink:href="#a"/>-->
+<!--          <radialGradient id="c" cx="418.2" cy="61.67" r="24.55" gradientTransform="matrix(0, 1.02, -1, 0, 164.16, -326.23)" gradientUnits="userSpaceOnUse">-->
+<!--            <stop offset="0" stop-color="#fff"/>-->
+<!--            <stop offset="0.08" stop-color="#fafafa" stop-opacity="0.98"/>-->
+<!--            <stop offset="0.19" stop-color="#ebebeb" stop-opacity="0.92"/>-->
+<!--            <stop offset="0.3" stop-color="#d2d2d2" stop-opacity="0.83"/>-->
+<!--            <stop offset="0.42" stop-color="#b0b0b0" stop-opacity="0.69"/>-->
+<!--            <stop offset="0.54" stop-color="#848484" stop-opacity="0.52"/>-->
+<!--            <stop offset="0.67" stop-color="#4e4e4e" stop-opacity="0.3"/>-->
+<!--            <stop offset="0.8" stop-color="#0f0f0f" stop-opacity="0.06"/>-->
+<!--            <stop offset="0.83" stop-opacity="0"/>-->
+<!--          </radialGradient>-->
+<!--          <radialGradient id="d" cx="1589.63" cy="-2.39" r="37.12" gradientTransform="matrix(0.08, 0.07, -2.1, 2.57, -32.63, 3.54)" gradientUnits="userSpaceOnUse">-->
+<!--            <stop offset="0" stop-color="#fff"/>-->
+<!--            <stop offset="0.13" stop-color="#fbfbfb" stop-opacity="0.99"/>-->
+<!--            <stop offset="0.26" stop-color="#f0f0f0" stop-opacity="0.94"/>-->
+<!--            <stop offset="0.38" stop-color="#ddd" stop-opacity="0.87"/>-->
+<!--            <stop offset="0.51" stop-color="#c2c2c2" stop-opacity="0.76"/>-->
+<!--            <stop offset="0.63" stop-color="#9f9f9f" stop-opacity="0.63"/>-->
+<!--            <stop offset="0.75" stop-color="#757575" stop-opacity="0.46"/>-->
+<!--            <stop offset="0.87" stop-color="#434343" stop-opacity="0.26"/>-->
+<!--            <stop offset="0.98" stop-color="#0a0a0a" stop-opacity="0.04"/>-->
+<!--            <stop offset="1" stop-opacity="0"/>-->
+<!--          </radialGradient>-->
+<!--          <radialGradient id="e" cx="3035.03" cy="3.48" r="20.69" gradientTransform="matrix(0.03, 0.09, -3.34, 0.98, 28.79, -189.01)" xlink:href="#d"/>-->
+<!--          <radialGradient id="f" cx="628.66" cy="-24.29" r="20.69" gradientTransform="matrix(-0.09, 0.03, -0.98, -3.34, 136.67, 2.93)" xlink:href="#d"/>-->
+<!--          <radialGradient id="g" cx="3183.72" cy="3.67" r="26.23" gradientTransform="matrix(0, 0.1, -3.48, -0.09, 122.31, -211.74)" xlink:href="#d"/>-->
+<!--          <radialGradient id="h" cx="626.39" cy="-28.29" r="26.23" gradientTransform="matrix(0, -0.1, 3.48, 0, 199.46, 163.23)" xlink:href="#d"/>-->
+<!--          <radialGradient id="i" cx="3189.62" cy="6.11" r="20.69" gradientTransform="matrix(-0.07, 0.15, -3.13, -1.53, 352.75, -359.27)" xlink:href="#d"/>-->
+<!--          <radialGradient id="j" cx="638.12" cy="-27.22" r="20.69" gradientTransform="matrix(-0.19, -0.09, 1.53, -3.13, 261.39, 74.46)" xlink:href="#d"/>-->
+<!--          <radialGradient id="k" cx="3024.35" cy="2.34" r="16.23" gradientTransform="matrix(0.07, 0.07, -2.61, 2.31, -90.46, -127.38)" xlink:href="#d"/>-->
+<!--          <radialGradient id="l" cx="569.93" cy="-23.95" r="16.23" gradientTransform="matrix(-0.07, 0.07, -2.31, -2.61, 87.82, 1.75)" xlink:href="#d"/>-->
+<!--        </defs>-->
+<!--        <title>Asset 1</title>-->
+<!--        <g style="isolation: isolate">-->
+<!--          <g>-->
+<!--            <g>-->
+<!--              <g>-->
+<!--                <circle cx="102.71" cy="102.71" r="57.08" transform="translate(-42.55 102.71) rotate(-45)" fill="url(#a)" style="mix-blend-mode: color-dodge"/>-->
+<!--                <circle cx="102.71" cy="102.71" r="102.7" transform="translate(-42.55 102.71) rotate(-45)" fill="url(#b)" style="mix-blend-mode: color-dodge"/>-->
+<!--              </g>-->
+<!--              <ellipse cx="102.49" cy="100.85" rx="24.55" ry="25.08" transform="translate(-40.13 119.09) rotate(-51.82)" fill="url(#c)" style="mix-blend-mode: screen"/>-->
+<!--            </g>-->
+<!--            <g opacity="0.8">-->
+<!--              <path d="M178,5.93c-1.65-1.34-37.88,40.36-80.93,93.14s-76.6,96.66-75,98S60,156.72,103,103.94,179.62,7.28,178,5.93Z" fill="url(#d)" style="mix-blend-mode: color-dodge"/>-->
+<!--            </g>-->
+<!--            <g opacity="0.2">-->
+<!--              <path d="M170.09,81.3c-.31-1.08-31.54,7.09-69.74,18.25s-68.91,21.08-68.59,22.16,31.54-7.09,69.74-18.25S170.41,82.38,170.09,81.3Z" fill="url(#e)" style="mix-blend-mode: color-dodge"/>-->
+<!--              <path d="M121.13,170.67c1.08-.32-7.09-31.54-18.25-69.74S81.8,32,80.72,32.34,87.81,63.88,99,102.08,120.05,171,121.13,170.67Z" fill="url(#f)" style="mix-blend-mode: color-dodge"/>-->
+<!--            </g>-->
+<!--            <g opacity="0.5">-->
+<!--              <path d="M192.22,104c0-1.43-40.8-3.7-91.22-5.07S9.67,97.59,9.63,99s40.8,3.7,91.22,5.07S192.18,105.42,192.22,104Z" fill="url(#g)" style="mix-blend-mode: color-dodge"/>-->
+<!--              <ellipse cx="100.93" cy="101.5" rx="91.33" ry="2.58" transform="translate(-3.29 199.63) rotate(-88.44)" fill="url(#h)" style="mix-blend-mode: color-dodge"/>-->
+<!--            </g>-->
+<!--            <g opacity="0.5">-->
+<!--              <path d="M167.4,133.26c.83-1.69-27.46-17.27-63.19-34.8S38.86,68.07,38,69.75,65.49,87,101.22,104.55,166.57,134.94,167.4,133.26Z" fill="url(#i)" style="mix-blend-mode: color-dodge"/>-->
+<!--              <path d="M69.61,166.19c2.11,1,18-27.08,35.58-62.8s30-65.53,27.92-66.57S115.06,63.9,97.53,99.62,67.49,165.15,69.61,166.19Z" fill="url(#j)" style="mix-blend-mode: color-dodge"/>-->
+<!--            </g>-->
+<!--            <g opacity="0.2">-->
+<!--              <path d="M143.31,64.08c-.59-.66-20,15.56-43.44,36.23s-41.91,38-41.33,38.62,20-15.56,43.44-36.23S143.89,64.74,143.31,64.08Z" fill="url(#k)" style="mix-blend-mode: color-dodge"/>-->
+<!--              <path d="M138.35,143.89c.66-.59-15.56-20-36.23-43.44s-38-41.91-38.62-41.33,15.56,20,36.23,43.44S137.69,144.47,138.35,143.89Z" fill="url(#l)" style="mix-blend-mode: color-dodge"/>-->
+<!--            </g>-->
+<!--          </g>-->
+<!--        </g>-->
+<!--      </svg>-->
+<!--      <div id="flare2" v-bind:style="{left: this.fTwoL+'%', top: this.fTwoT+'%'}"></div>-->
+<!--      <div id="flare3" v-bind:style="{left: this.fThreeL+'%', top: this.fThreeT+'%'}"></div>-->
+<!--      <div id="flare4" v-bind:style="{left: this.fFourL+'%', top: this.fFourT+'%'}"></div>-->
+      <iframe width="1920" height="1080" src="https://www.youtube.com/embed/CkK5mYAw9Uk?version=3&autoplay=1&loop=1&playlist=CkK5mYAw9Uk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <svg id="screen" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2593.13" height="1493.06" viewBox="0 0 2593.13 1493.06">
         <defs>
           <clipPath id="a" transform="translate(22.81 21.56)">
@@ -9319,5 +9320,11 @@ svg#flare1 {
   background: radial-gradient(circle, rgba(244,35,21,1) 0%, rgba(244,35,21,0.65) 35%, rgba(244,35,21,0) 100%);
   box-shadow: 0 0 50px rgba(244,35,21,0.6);
   transition: all 12s;
+}
+iframe {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
 }
 </style>
