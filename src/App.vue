@@ -9203,7 +9203,8 @@
           </g>
         </g>
       </svg>
-      <footer class="siteFooter"><div class="madeinindia" v-on:click="madeInIndiaMode = !madeInIndiaMode">Make In India</div></footer>
+      <footer class="siteFooter"><div class="madeinindia">Made with &#x1f9e1; By <a href="http://artific.in" target="_blank">Artific</a>
+        <img src="./assets/india-butterfly.gif" alt="" v-on:click="madeInIndiaMode = !madeInIndiaMode"></div></footer>
     </div>
   </div>
 </template>
@@ -9272,7 +9273,16 @@ export default {
     text-shadow: 1px 1px 1px 1px #000000;
     display: inline-block;
     float: right;
-    cursor: pointer;
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    img {
+      cursor: pointer;
+      display: inline-block;
+      height: 30px;
+      margin-top: -15px;
+    }
   }
 }
 body { padding: 0; margin: 0; background: #000000; }
