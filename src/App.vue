@@ -9204,7 +9204,7 @@
         </g>
       </svg>
       <footer class="siteFooter"><div class="madeinindia">Made with &#x1f9e1; By <a href="http://artific.in" target="_blank">Artific</a>
-        <img src="./assets/india-butterfly.gif" alt="" v-on:click="madeInIndiaMode = !madeInIndiaMode"></div></footer>
+        <img src="./assets/india-flag.png" alt="" v-on:click="madeInIndiaMode = !madeInIndiaMode"></div></footer>
     </div>
   </div>
 </template>
@@ -9248,12 +9248,20 @@ export default {
 </script>
 
 <style lang="less">
+@font-face {
+  font-family: 'republica';
+  src: url(./assets/republica.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 #app {
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'republica', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
   text-align: center;
-  color: #2c3e50;
+  color: #08a2de;
 }
 .siteFooter {
   position: absolute;
@@ -9261,7 +9269,7 @@ export default {
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 10px 15px;
+  padding: 12px 15px;
   &::before {
     content: '';
     display: table;
@@ -9269,8 +9277,7 @@ export default {
     clear: both;
   }
   .madeinindia {
-    color: #ced9e2;
-    text-shadow: 1px 1px 1px 1px #000000;
+    text-shadow: 1px 1px 1px #000000;
     display: inline-block;
     float: right;
     a {
@@ -9280,8 +9287,8 @@ export default {
     img {
       cursor: pointer;
       display: inline-block;
-      height: 30px;
-      margin-top: -15px;
+      height: 24px;
+      margin: -8px 0 -8px 4px;
     }
   }
 }
